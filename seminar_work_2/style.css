@@ -1,8 +1,8 @@
 html{
-    background-color:aqua ;
+    background-color:rgb(85, 165, 165) ;
 }
 h1{
-    color: brown;
+    color: rgb(114, 51, 51);
     font-family: 'Teddy Bear', sans-serif;
 }
 h2{
@@ -12,10 +12,10 @@ a{
     color: green;
 }
 .img500{
-    width: 500;
+    width: 400px;
 }
-img400{
-    width: 400;
+.img400{
+    width: 500px;
 }
 .big_size{
     font-size: 1.5rem;

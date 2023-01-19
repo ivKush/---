@@ -1,0 +1,35 @@
+html {
+    background-color: antiquewhite;
+    /* background-image: image(img_1); */
+    font-family: 'Philosopher_Italic', sans-serif;
+}
+
+.img_1 {
+    width: 400px;
+}
+
+.img_2 {
+    width: 100px;
+}
+
+@font-face {
+    font-family: 'Philosopher_Italic';
+    src: url('font/Philosopher_Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Philosopher Regular';
+    src: url('font/Philosopher_Regular.ttf');
+}
+
+.text_effect {
+    font-family: 'Philosopher Regular', sans-serif;
+    color: rgb(187, 81, 81);
+    font-size: 36px;
+    text-shadow: rgb(168, 141, 141) 4px 4px 4px;
+}
+
+h1 {
+    font-family: 'Philosopher Regular', sans-serif;
+}
+
