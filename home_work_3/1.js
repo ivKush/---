@@ -7,5 +7,3 @@ const a = Number.parseInt(prompt("введите число температур
 // const a = +(prompt("введите число а"));
 alert(`Цельсий: ${a} Фаренгейт: ${(((9 / 5) * a) + 32).toFixed(1)}`);
 
-// (9 / 5) * a + 32
-// alert( num.toFixed(5) )
