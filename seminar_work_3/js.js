@@ -6,8 +6,8 @@
 // // const a = +prompt("введите число а"); тоже самое, что и 5 строка ("+" превращает строку в число)
 // const b = Number.parseInt(prompt("введите число b"));
 // const sum = a + b;
-// alert("Результат сложения чисел " + a + " + "+b +" = " +sum);
-// alert(`Результат сложения чисел ${a} + ${b} = ${sum}`);
+// alert("Результат сложения чисел " + a + " + "+b +" = " +sum); // 1 Вариант написания
+// alert(`Результат сложения чисел ${a} + ${b} = ${sum}`); // 2 Вариант написания
 
 // function sumof(num1, num2) {
 //     // const s = num1 + num2;
@@ -78,7 +78,8 @@
 // Проверить работоспособность функции.
 
 function hello(userName) {
-    console.log(`Hello ${userName}`);
+   // console.log(`Hello ${userName}`);
+   alert(`Hello ${userName}`);    
 }
 
 const user = prompt("Enter your name: ");
