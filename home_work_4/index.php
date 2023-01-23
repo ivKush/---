@@ -129,7 +129,7 @@ $work_experience = [
                         <hr>
                     </div> -->
                     <?php for ($i = 0; $i < count($work_experience); $i++) { ?>
-                        <?php if ($work_experience[$i] == 0) { ?>
+                        <?php if ($i == 0) { ?>
                             <div class="w3-container">
                                 <h5 class="w3-opacity"><b><?= $work_experience[$i]["должность"]; ?></b></h5>
                                 <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?= $work_experience[$i]["дата"]; ?>
