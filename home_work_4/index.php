@@ -121,25 +121,20 @@ $work_experience = [
             <div class="w3-twothird">
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
-                    <?php for ($i = 0; $i < count($work_experience); $i++) { ?>
-                        <?php if ($i == 0) { ?>
+                    <?php for ($i = 0; $i < count($work_experience); $i++) : ?>
+                        <?php if ($i == 0) : ?>
                             <div class="w3-container">
-                                <h5 class="w3-opacity"><b><?= $work_experience[$i]["должность"]; ?></b></h5>
                                 <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?= $work_experience[$i]["дата"]; ?>
-                                    <span class="w3-tag w3-teal w3-round">Current</span>
-                                </h6>
-                                <p><?= $work_experience[$i]["описание"] ?> </p>
-                            <?php } ?>
-                            <p>
-                            <h5><b><?= $work_experience[$i]["должность"]; ?></b></h5>
-                            </p>
-                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?= $work_experience[$i]["дата"]; ?></h6>
-                            <p><?= $work_experience[$i]["описание"]; ?></p>
-                        <?php } ?>
+                                    <span class="w3-tag w3-teal w3-round">Current</span></h6>
+                            <?php else : ?>
+                                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?= $work_experience[$i]["дата"]; ?></h6>
+                            <?php endif ?>
+                            <h5 class="w3-opacity"><b><?= $work_experience[$i]["должность"]; ?></b></h5>
+                            <p><?= $work_experience[$i]["описание"] ?> </p>
+                        <?php endfor; ?>
                         <hr>
                             </div>
                 </div>
-
                 <div class="w3-container w3-card w3-white">
                     <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Образование</h2>
                     <div class="w3-container">
