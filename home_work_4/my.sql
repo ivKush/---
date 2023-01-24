@@ -24,4 +24,5 @@ INSERT INTO AUDITORIUM VALUES (10, 'Катя', 28, 'Москва');
 
 -- fetch 
 SELECT name FROM AUDITORIUM WHERE address = 'Москва' and age >= 18 and age <30 ;
+-- ссылка на решение в песочнице 
 -- https://onecompiler.com/mysql/3yvu33vqw
